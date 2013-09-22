@@ -1,0 +1,154 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{green}
+\nopagenumbers{}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+
+\usepackage[scale=0.74]{geometry}
+
+% personal data
+\name{Maximiliano}{Osorio}
+\address{}{Valparaíso}{Chile}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+56954533204}                   % optional, remove / comment the line if not wanted
+\email{mosorio@inf.utfsm.cl}                               % optional, remove / comment the line if not wanted
+\homepage{mosorio.labcomp.cl}                         % optional, remove / comment the line if not wanted
+
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+\begin{document}
+
+
+\makecvtitle
+
+\section{Education}
+%\cventry{2006--2009}{High School}{Colegio Santa Mónica}{Melipilla}{\textit{}}{}  % arguments 3 to 6 can be left empty
+\cventry{2010--presente}{Ingeniería Civil Informática}{Universidad Técnica Santa María UTFSM}{Valparaíso}{}{}
+
+
+\section{Experiencia}
+\subsection{Vocacional}
+\cventry{Junio 2013 al presente}
+                                {Administrador de Sistemas}
+                                {Departamento de Informática}
+                                {Valparaíso}
+                                {}
+                                {A cargo de los servicios computacionales, realizando tareas de administrador
+                                de sistemas y investigación de nuevas tecnologías\\ https://usci.inf.utfsm.cl}
+\cventry{Marzo 2013  al presente}{
+                                Miembro}
+                                {Errezeta}
+                                {Valparaíso}
+                                {}
+                                {Errezeta es una aplicación web para administrar recetas y planes de comidas,
+                                generando listas de compras. Actualmente está en desarrollo.
+                              \\ http://errezeta.cl}
+\cventry{Enero 2013}
+                                {Ayudante técnico}
+                                {Panamerican Advanced Studies Institute}
+                                {Valparaiso}
+                                {}
+                                {Al cargo de la instalación software científico y militar. Y soporte técnico de este}
+\cventry{Agosto 2012 a Mayo 2013}
+                                {Coordinador}{Laboratorio de Computación. Departamento de Informática. UTFSM}
+                                {Valparaíso}
+                                {}
+                                {Laboratorio a cargo de la mayoría de los servicios de los alumnos del Departamento de Informática, 
+                                basado en Linux, trabajando como administrador de sistemas.}
+\cventry{Marzo 2011 a Julio 2012}
+                                {Ayudante}
+                                {Laboratorio de Computación. Departamento de Informática UTFSM}
+                                {Valparaíso}{}{}
+
+
+\subsection{Misceláneo}
+\cventry{2012--2013}
+                                {Co-fundador InfoDay}
+                                {UTFSM}
+                                {Valparaíso}
+                                {}
+                                {InfoDay es un evento donde los estudiantes del Departamento de Informática pueden mostrar sus
+                                proyectos a la comunidad permitiendo difusión de estos}
+
+\section{Lenguajes}
+\cvitemwithcomment{Español}{Nativo}{}
+\cvitemwithcomment{Ingles}{Medio}{}
+
+\newpage
+%category 1  - category 4
+%category 2  - category 5
+%category 3  - category 6
+
+\section{Habilidades computacionales}
+\cvdoubleitem
+                %category 1
+                {\textbf{Sistemas Operativos}}{Gnu/Linux (RedHat, CentOS, Fedora, Debian)}
+                %category 4
+                {\textbf{Base de datos}}{Postgres, MySQL}
+
+\cvdoubleitem
+                %category 2
+                {\textbf{Lenguajes de programación}}{Python, Bash, C, C++, Ruby}
+                %category 5
+                {\textbf{Web}}{Rails, PHP, CSS, HTML}
+
+\cvitem
+                %category 3
+                {\textbf{Administrador de Sistemas}}{Servicio de Correo, LDAP, Nagios,
+                Shinken, OpenShift, DNS, RHEV, KVM, xenServer, xen, Apache, GIT}
+                %{}{}
+
+\section{Eventos}
+\cvitem
+        {2012}
+        {\textbf{12vo Encuentro Linux}
+        Charlista, Implementación OpenStack en el Laboratorio de Computación UTFSM}
+
+\cvitem
+        {2012}
+        {\textbf{2do 8.8 Computer Security Conference}
+        Asistente, Santiago}
+
+\cvitem
+        {2012}
+        {\textbf{11vo Encuentro Linux}
+        Asistente, Puerto Montt}
+
+\cvitem
+        {2011}
+        {\textbf{1er 8.8 Computer Security Conference}
+        Asistente, Santiago}
+
+\section{Referencias}
+
+\cventry{}
+        {Horst von Brand}
+        {Profesor Titular Departamento de Informática}
+        {UTFSM}
+        {}
+        {vonbrand@inf.utfsm.cl}
+
+
+\cventry{}
+        {Cecilia Reyes}
+        {Director Departamento de Informática}
+        {UTFSM}
+        {}
+        {reyes@inf.utfsm.cl}
+
+
+\clearpage
+\end{document}
+
